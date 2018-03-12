@@ -1,0 +1,5 @@
+- Install Maven if you haven't already: https://maven.apache.org/install.html
+- download this repo using git clone
+- within the project root dir, run mvn clean install
+- then run mvn exec:java -Dexec.mainClass="HelloWorld"
+- Go to localhost:4567/hello or localhost:4567/hello/name (change name to any text)
